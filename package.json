@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mamoonrazmal.github.io/cookbook2",
+  "homepage": "http://mamoonrazmal.github.io/cookbook2",
   "name": "cookbook2",
   "private": true,
   "version": "0.0.0",
@@ -8,14 +8,16 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages  -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "build": "^0.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-contentful": "^2.0.31",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
