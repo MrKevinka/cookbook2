@@ -1,5 +1,6 @@
 import Not_Found_photo from './Components/Not_Found_photo.webp'
 import { NavLink } from 'react-router-dom'
+
 export default function Not_found(){
 
    
