@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Image_Galery from "./Image_Galery";
+
 
 export default function Landing_page_Recepes(){
     return(
